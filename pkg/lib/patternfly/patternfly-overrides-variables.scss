@@ -14,10 +14,10 @@ $gray:                   lighten($gray-base, 33.5%); // #555
 $gray-light:             lighten($gray-base, 46.7%); // #777
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
-$brand-primary:         #06c;
+$brand-primary:         #FFA601;
 $brand-success:         #92d400;
 $brand-info:            #73bcf7;
-$brand-warning:         #f0ab00;
+$brand-warning:         #D35FAA;
 $brand-danger:          #c9190b;
 
 
@@ -34,8 +34,8 @@ $text-color:            #151515;
 $navbar-pf-vertical-bg-color: $text-color;
 
 //** Global textual link color.
-$link-color: #06c;
-$link-hover-color: #004080;
+$link-color: #FFD464;
+$link-hover-color: #FFA601;
 //** Link hover decoration.
 $link-hover-decoration: underline;
 
