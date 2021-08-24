@@ -246,6 +246,7 @@ include pkg/Makefile.am
 include src/branding/centos/Makefile.am
 include src/branding/debian/Makefile.am
 include src/branding/default/Makefile.am
+include src/branding/elementos/Makefile.am
 include src/branding/fedora/Makefile.am
 include src/branding/kubernetes/Makefile.am
 include src/branding/opensuse/Makefile.am
