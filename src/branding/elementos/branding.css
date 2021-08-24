@@ -1,0 +1,37 @@
+
+.login-note {
+    color: transparent;
+    position: relative;
+}
+
+body.login-pf {
+    background: linear-gradient(-45deg, rgb(255, 246, 228), #FFA601, rgb(244, 211, 108), rgb(255, 238, 189), rgb(255, 246, 228));
+	background-size: 100% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+#badge {
+    width: 73px;
+    height: auto;
+    background-image: url("MarkWebR.png");
+    background-repeat: no-repeat;
+}
+
+#brand {
+    width: 121px;
+    height: 18px;
+    background-image: url("brand-large.png");
+    background-repeat: no-repeat;
+}
+
+#index-brand {
+    font-weight: bold;
+}
+
+#brand:before {
+    content: "Element<b>OS</b> <b>${VARIANT}</b>";
+}
+
+#index-brand:before {
+    content: "Element<b>OS</b> <b>${VARIANT}</b>";
+}
