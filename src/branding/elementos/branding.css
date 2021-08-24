@@ -40,8 +40,8 @@ body.login-pf {
 }
 
 #brand:before {
-    content: "Element<b>OS</b>";
-    color: #FFA601
+    color: red;
+    content: "Element<b>OS</b> ";
 }
 
 #brand:after {
@@ -49,8 +49,8 @@ body.login-pf {
 }
 
 #index-brand:before {
-    content: "Element<b>OS</b>";
-    color: #FFA601
+    color: red;
+    content: "Element<b>OS</b> ";
 }
 
 #index-brand:after {
