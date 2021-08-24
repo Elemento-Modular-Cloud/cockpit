@@ -6,9 +6,9 @@
 
 body.login-pf {
     background-position: 0% 50%;
-    background: linear-gradient(-45deg, rgb(255, 246, 228), #FFA601, rgb(244, 211, 108), rgb(255, 238, 189), rgb(255, 246, 228));
+    background: linear-gradient(45deg, #3c4250 5%, #0E1119 25%, black 40%, black 60%, #0E1119 85%);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 15s ease-in-out infinite;
 }
 
 @keyframes gradient {
