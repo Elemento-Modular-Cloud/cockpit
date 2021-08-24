@@ -34,6 +34,7 @@ body.login-pf {
     max-width: 100%;
     font-size: 18pt;
     background-image: url("brand-large.png");
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
