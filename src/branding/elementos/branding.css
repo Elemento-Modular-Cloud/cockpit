@@ -1,3 +1,6 @@
+:root {
+    --ct-color-host-accent: #FFA601 !important;
+}
 
 .login-note {
     color: transparent;
