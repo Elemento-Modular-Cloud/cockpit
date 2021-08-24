@@ -33,9 +33,6 @@ body.login-pf {
 #brand {
     max-width: 100%;
     font-size: 18pt;
-    background-image: url("brand-large.png");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 #index-brand {
@@ -43,9 +40,19 @@ body.login-pf {
 }
 
 #brand:before {
-    content: "Element<b>OS</b> Compute Engine";
+    content: "Element<b>OS</b>";
+    color: #FFA601
+}
+
+#brand:after {
+    content: "Compute Engine";
 }
 
 #index-brand:before {
-    content: "Element<b>OS</b> Compute Engine";
+    content: "Element<b>OS</b>";
+    color: #FFA601
+}
+
+#index-brand:after {
+    content: "Compute Engine";
 }
