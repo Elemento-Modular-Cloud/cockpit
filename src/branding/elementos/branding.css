@@ -10,6 +10,18 @@ body.login-pf {
 	animation: gradient 15s ease infinite;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 #badge {
     width: 73px;
     height: auto;
@@ -18,7 +30,7 @@ body.login-pf {
 }
 
 #brand {
-    width: 121px;
+    max-width: 100%;
     height: 18px;
     background-image: url("brand-large.png");
     background-repeat: no-repeat;
@@ -29,9 +41,9 @@ body.login-pf {
 }
 
 #brand:before {
-    content: "Element<b>OS</b> <b>${VARIANT}</b>";
+    content: "Element<b>OS</b> Compute Engine";
 }
 
 #index-brand:before {
-    content: "Element<b>OS</b> <b>${VARIANT}</b>";
+    content: "Element<b>OS</b> Compute Engine";
 }
