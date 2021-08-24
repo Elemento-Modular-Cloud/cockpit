@@ -40,19 +40,19 @@ body.login-pf {
 }
 
 #brand:before {
-    color: red;
     content: "Element<b>OS</b> ";
 }
 
 #brand:after {
+    color: red;
     content: "Compute Engine";
 }
 
 #index-brand:before {
-    color: red;
     content: "Element<b>OS</b> ";
 }
 
 #index-brand:after {
+    color: red;
     content: "Compute Engine";
 }
