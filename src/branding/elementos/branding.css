@@ -24,9 +24,9 @@ body.login-pf {
 }
 
 #badge {
-    width: 150px;
+    width: 200px;
     height: auto;
-    background-image: url("logo.svg");
+    background-image: url("MarkWebR.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
