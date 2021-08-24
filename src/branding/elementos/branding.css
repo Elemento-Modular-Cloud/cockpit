@@ -24,10 +24,11 @@ body.login-pf {
 }
 
 #badge {
-    width: 73px;
+    width: 150px;
     height: auto;
-    background-image: url("MarkWebR.png");
+    background-image: url("logo.svg");
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #brand {
