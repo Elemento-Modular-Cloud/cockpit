@@ -755,14 +755,14 @@ body.login-pf {
 
 .unsupported-browser a,
 a {
-  color: #FFA601;
+  color: #FFD464;
 }
 
 .unsupported-browser a:focus,
 .unsupported-browser a:hover,
 a:focus,
 a:hover {
-  color: #FFD464;
+  color: #FFA601;
 }
 
 .caret polygon {
