@@ -5,6 +5,7 @@ elementosbranding_DATA = \
 	src/branding/elementos/branding.css \
 	src/branding/elementos/favicon.ico \
 	src/branding/elementos/logo.png \
+	src/branding/elementos/MarkWebR.png \
 	$(NULL)
 
 EXTRA_DIST += \
