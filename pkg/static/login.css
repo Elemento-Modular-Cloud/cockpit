@@ -207,7 +207,7 @@ form .control-label {
 .form-control[type=text]:hover,
 .form-control[type=password]:focus,
 .form-control[type=text]:focus {
-  border-bottom-color: #06c;
+  border-bottom-color: #FFA601;
 }
 
 .form-control[type=password]:focus,
@@ -311,16 +311,16 @@ label.checkbox {
 }
 
 .pf-m-primary {
-  background-color: #06c;
-  border-color: #06c;
+  background-color: #FFA601;
+  border-color: #FFA601;
   color: #fff;
 }
 
 .pf-m-primary:active,
 .pf-m-primary:focus,
 .pf-m-primary:hover {
-  background-color: #004080;
-  border-color: #004080;
+  background-color: #FFD464;
+  border-color: #FFD464;
   color: #fff;
   outline: none;
 }
@@ -469,12 +469,12 @@ label.checkbox {
 }
 
 .pf-c-alert.pf-m-inline.pf-m-warning {
-  background: #fdf7e7;
-  border-color: #f0ab00;
+  background: #D35FAA;
+  border-color: #9E005D;
 }
 
 .pf-c-alert.pf-m-warning > svg {
-  color: #f0ab00;
+  color: #9E005D;
 }
 
 .pf-c-alert.pf-m-warning .pf-c-alert__title {
@@ -755,18 +755,18 @@ body.login-pf {
 
 .unsupported-browser a,
 a {
-  color: #06c;
+  color: #FFA601;
 }
 
 .unsupported-browser a:focus,
 .unsupported-browser a:hover,
 a:focus,
 a:hover {
-  color: #004080;
+  color: #FFD464;
 }
 
 .caret polygon {
-  fill: #06c;
+  fill: #FFA601;
 }
 
 .cross {
