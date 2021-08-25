@@ -1,5 +1,11 @@
 :root {
     --ct-color-host-accent: #FFA601 !important;
+    
+    /* Theme color */
+    --pf-global--primary-color--100: #fdc55d !important;
+    --pf-global--primary-color--200: #FFA601 !important;
+    --pf-global--warning-color--100: #eea0d3 !important;
+    --pf-global--warning-color--200: #D35FAA !important;
 }
 
 .login-note {
