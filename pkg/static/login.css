@@ -314,7 +314,7 @@ label.checkbox {
   background-color: #FFD464;
   border-color: #FFD464;
   color: #fff;
-  text-shadow: 0px 0px 5px #FFA601;
+  text-shadow: 0px 0px 5px #666;
 }
 
 .pf-m-primary:active,
@@ -756,14 +756,14 @@ body.login-pf {
 
 .unsupported-browser a,
 a {
-  color: #FFD464;
+  color: #FFA601;
 }
 
 .unsupported-browser a:focus,
 .unsupported-browser a:hover,
 a:focus,
 a:hover {
-  color: #FFA601;
+  color: #FFD464;
 }
 
 .caret polygon {
