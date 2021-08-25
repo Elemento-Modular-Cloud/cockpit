@@ -314,6 +314,7 @@ label.checkbox {
   background-color: #FFD464;
   border-color: #FFD464;
   color: #fff;
+  text-shadow: 0px 0px 5px #FFA601;
 }
 
 .pf-m-primary:active,
