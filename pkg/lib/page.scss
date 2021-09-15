@@ -2,39 +2,7 @@
 @import "@patternfly/patternfly/base/patternfly-themes.scss";
 @import "./patternfly/patternfly-4-overrides.scss";
 @import "@patternfly/patternfly/components/Page/page.scss";
-
-:root {
-    --ct-color-host-accent: #FFA601 !important;
-    --ct-color-list-hover-text: #FFA601 !important;
-    
-    /* Theme color */
-    --pf-global--primary-color--100: #fdc55d !important;
-    --pf-global--primary-color--200: #FFA601 !important;
-    --pf-global--warning-color--100: #eea0d3 !important;
-    --pf-global--warning-color--200: #D35FAA !important;
-
-    /*  Link colors */
-    --pf-global--link--Color: #FFA601 !important;
-    --pf-global--link--Color--hover: #fdc55d !important;
-
-    /*  Inline link colors */
-    --pf-c-button--m-link--Color: #FFA601 !important;
-    --pf-c-button--m-link--m-inline--hover--Color: #fdc55d !important;
-
-    /*  Nav link colors */
-    --pf-c-badge--m-unread--BackgroundColor: #FFA601 !important;
-    --pf-c-nav__link--Color: #FFA601 !important;
-    --pf-c-nav__link--m-current--Color: #fdc55d !important;
-    --pf-c-nav__link--before--BorderColor: #FFA601 !important;
-    --pf-c-nav__section__link--hover--after--BorderColor: #fdc55d !important;
-
-    /*  Progress indicators colors */
-    --pf-c-progress__indicator--BackgroundColor: #FFA601 !important;
-    --pf-c-progress__bar--BackgroundColor: #fadda7 !important;
-
-    /*  Table headings colors */
-    --pf-c-table__sort__button__text--Color: #FFA601 !important;
-}
+@import "./custom_colors.scss"
 
 /* Globally resize headings */
 h1 {
