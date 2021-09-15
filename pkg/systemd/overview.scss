@@ -3,7 +3,7 @@
 
 /* System Time Modal dialog needs table.css */
 @import "../lib/table.css";
-@import "../lib/custom_colors.scss"
+@import "../lib/custom_colors.scss";
 
 .ct-limited-access-alert {
   --pf-c-alert--GridTemplateColumns: auto auto 1fr;
