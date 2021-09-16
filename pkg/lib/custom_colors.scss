@@ -37,6 +37,7 @@ $pf-c-nav__link--m-current--Color: $elemento-yellow-light;
 $pf-c-nav__link--before--BorderColor: $elemento-yellow-dark !important;
 $pf-c-nav__link--after--BorderColor: $elemento-yellow-dark !important;
 $pf-c-nav__section__link--hover--after--BorderColor: $elemento-yellow-dark;
+$pf-c-nav__link--m-current--after--BorderColor: $elemento-yellow-dark;
 
 /*  Progress indicators colors */
 $pf-c-progress__indicator--BackgroundColor: $elemento-yellow-dark;
@@ -44,3 +45,23 @@ $pf-c-progress__bar--BackgroundColor: lighten($elemento-yellow-light, 25%);
 
 /*  Table headings colors */
 $pf-c-table__sort__button__text--Color: $elemento-yellow-dark;
+
+.pf-c-progress__indicator {
+    background-color: $elemento-yellow-dark !important;
+}
+
+.pf-c-progress__bar {
+    background-color: lighten($elemento-yellow-light, 25%) !important;
+}
+
+.pf-c-button.pf-m-link {
+    color: $elemento-grey-dark !important;
+}
+
+.pf-c-button.pf-m-link:hover {
+    color: $elemento-yellow-dark !important;
+}
+
+.pf-c-switch__input:checked~.pf-c-switch__toggle {
+    background-color: $elemento-yellow-dark !important;
+}
