@@ -1,63 +1,46 @@
-$ct-color-host-accent: #FFA601 !important;
-$ct-color-list-hover-text: #FFA601 !important;
+$elemento-grey-light: #3c4250;
+$elemento-grey-dark: #0E1119;
+$elemento-yellow-light: #FFD464;
+$elemento-yellow-dark: #FFA601;
+$elemento-blue-light: #5B98CE;
+$elemento-blue-dark: #3B6088;
+$elemento-purple-light: #7B14FF;
+$elemento-purple-dark: #4B0C9B;
+$elemento-green-light: #91DD4F;
+$elemento-green-dark: #52B701;
+$elemento-red-light: #AA3939;
+$elemento-red-dark: #720404;
+$elemento-aqua-light: #5FB78B;
+$elemento-aqua-dark: #297754;
+$elemento-fuchsia-light: #D35FAA;
+$elemento-fuchsia-dark: #9E005D;
 
 /* Theme color */
-$pf-global--primary-color--100: #fdc55d !important;
-$pf-global--primary-color--200: #FFA601 !important;
-$pf-global--primary-color--100: #fdc55d !important;
-$pf-c-alert--BackgroundColor: #fadda7 !important;
+$ct-color-host-accent: $elemento-yellow-dark;
+$ct-color-list-hover-text: $elemento-yellow-dark;
+$pf-global--primary-color--100: $elemento-yellow-light;
+$pf-global--primary-color--200: $elemento-yellow-dark;
+$pf-global--primary-color--100: $elemento-yellow-light;
+$pf-c-alert--BackgroundColor: lighten($elemento-yellow-light, 25%);
 
 /*  Link colors */
-$pf-global--link--Color: #FFA601 !important;
-$pf-global--link--Color--hover: #fdc55d !important;
+$pf-global--link--Color: $elemento-yellow-dark;
+$pf-global--link--Color--hover: $elemento-yellow-light;
 
 /*  Inline link colors */
-$pf-c-button--m-link--Color: #FFA601 !important;
-$pf-c-button--m-link--m-inline--hover--Color: #fdc55d !important;
+$pf-c-button--m-link--Color: $elemento-yellow-dark;
+$pf-c-button--m-link--m-inline--hover--Color: $elemento-yellow-light;
 
 /*  Nav link colors */
-$pf-c-badge--m-unread--BackgroundColor: #FFA601 !important;
-$pf-c-nav__link--Color: #FFA601 !important;
-$pf-c-nav__link--m-current--Color: #fdc55d !important;
-$pf-c-nav__link--before--BorderColor: #FFA601 !important;
-$pf-c-nav__section__link--hover--after--BorderColor: #fdc55d !important;
+$pf-c-badge--m-unread--BackgroundColor: $elemento-yellow-dark;
+$pf-c-nav__link--Color: $elemento-yellow-dark;
+$pf-c-nav__link--m-current--Color: $elemento-yellow-light;
+$pf-c-nav__link--before--BorderColor: $elemento-yellow-dark;
+$pf-c-nav__section__link--hover--after--BorderColor: $elemento-yellow-light;
 
 /*  Progress indicators colors */
-$pf-c-progress__indicator--BackgroundColor: #FFA601 !important;
-$pf-c-progress__bar--BackgroundColor: #fadda7 !important;
+$pf-c-progress__indicator--BackgroundColor: $elemento-yellow-dark;
+$pf-c-progress__bar--BackgroundColor: lighten($elemento-yellow-light, 25%);
 
 /*  Table headings colors */
-$pf-c-table__sort__button__text--Color: #FFA601 !important;
-
-// :root {
-//     --ct-color-host-accent: #FFA601 !important;
-//     --ct-color-list-hover-text: #FFA601 !important;
-    
-//     /* Theme color */
-//     --pf-global--primary-color--100: #fdc55d !important;
-//     --pf-global--primary-color--200: #FFA601 !important;
-//     --pf-global--primary-color--100: #fdc55d !important;
-//     --pf-c-alert--BackgroundColor: #fadda7 !important;
-
-//     /*  Link colors */
-//     --pf-global--link--Color: #FFA601 !important;
-//     --pf-global--link--Color--hover: #fdc55d !important;
-
-//     /*  Inline link colors */
-//     --pf-c-button--m-link--Color: #FFA601 !important;
-//     --pf-c-button--m-link--m-inline--hover--Color: #fdc55d !important;
-
-//     /*  Nav link colors */
-//     --pf-c-badge--m-unread--BackgroundColor: #FFA601 !important;
-//     --pf-c-nav__link--Color: #FFA601 !important;
-//     --pf-c-nav__link--m-current--Color: #fdc55d !important;
-//     --pf-c-nav__link--before--BorderColor: #FFA601 !important;
-//     --pf-c-nav__section__link--hover--after--BorderColor: #fdc55d !important;
-
-//     /*  Progress indicators colors */
-//     --pf-c-progress__indicator--BackgroundColor: #FFA601 !important;
-//     --pf-c-progress__bar--BackgroundColor: #fadda7 !important;
-
-//     /*  Table headings colors */
-//     --pf-c-table__sort__button__text--Color: #FFA601 !important;
-// }
+$pf-c-table__sort__button__text--Color: $elemento-yellow-dark;
