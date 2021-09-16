@@ -18,25 +18,25 @@ $elemento-fuchsia-dark: #9E005D;
 /* Theme color */
 $ct-color-host-accent: $elemento-yellow-dark;
 $ct-color-list-hover-text: $elemento-yellow-dark;
-$pf-global--primary-color--100: $elemento-yellow-light;
-$pf-global--primary-color--200: $elemento-yellow-dark;
-$pf-global--primary-color--100: $elemento-yellow-light;
+$pf-global--primary-color--100: $elemento-yellow-dark;
+$pf-global--primary-color--200: darken($elemento-yellow-dark, 25%);
 $pf-c-alert--BackgroundColor: lighten($elemento-yellow-light, 25%);
 
 /*  Link colors */
-$pf-global--link--Color: $elemento-yellow-dark;
-$pf-global--link--Color--hover: $elemento-yellow-light;
+$pf-global--link--Color: $elemento-grey-dark;
+$pf-global--link--Color--hover: $elemento-yellow-dark;
 
 /*  Inline link colors */
-$pf-c-button--m-link--Color: $elemento-yellow-dark;
-$pf-c-button--m-link--m-inline--hover--Color: $elemento-yellow-light;
+$pf-c-button--m-link--Color: $elemento-grey-dark;
+$pf-c-button--m-link--m-inline--hover--Color: $elemento-yellow-dark;
 
 /*  Nav link colors */
 $pf-c-badge--m-unread--BackgroundColor: $elemento-yellow-dark;
 $pf-c-nav__link--Color: $elemento-yellow-dark;
 $pf-c-nav__link--m-current--Color: $elemento-yellow-light;
 $pf-c-nav__link--before--BorderColor: $elemento-yellow-dark;
-$pf-c-nav__section__link--hover--after--BorderColor: $elemento-yellow-light;
+$pf-c-nav__link--after--BorderColor: $elemento-yellow-dark;
+$pf-c-nav__section__link--hover--after--BorderColor: $elemento-yellow-dark;
 
 /*  Progress indicators colors */
 $pf-c-progress__indicator--BackgroundColor: $elemento-yellow-dark;
