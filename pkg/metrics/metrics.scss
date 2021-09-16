@@ -3,6 +3,8 @@
 @import "@patternfly/patternfly/components/Table/table.scss";
 @import "@patternfly/patternfly/components/Toolbar/toolbar.scss";
 
+@import "../lib/custom_colors.scss";
+
 #app {
     section.pf-c-page__main-breadcrumb {
         padding-bottom: var(--pf-c-page__main-breadcrumb--PaddingTop);

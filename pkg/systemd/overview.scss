@@ -1,6 +1,6 @@
-@import "../lib/custom_colors.scss";
 @import "./system-global.scss";
 @import "@patternfly/patternfly/components/Table/table.scss";
+@import "../lib/custom_colors.scss";
 
 /* System Time Modal dialog needs table.css */
 @import "../lib/table.css";

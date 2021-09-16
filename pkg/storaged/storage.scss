@@ -22,6 +22,8 @@
 @import "@patternfly/patternfly/utilities/Flex/flex.scss";
 @import "@patternfly/patternfly/utilities/Text/text.scss";
 
+@import "../lib/custom_colors.scss";
+
 #storage .pf-c-card {
     @extend .ct-card;
 }
